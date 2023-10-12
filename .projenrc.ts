@@ -61,8 +61,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
   sampleCode: false, // do not generate sample test files
 });
 
-project.addTask('prepare', { exec: 'yarn build' });
-
 project.bundler.addBundle('./src/lambdas/nextjs-bucket-deployment.ts', commonBundlingOptions);
 project.bundler.addBundle('./src/lambdas/sign-fn-url.ts', commonBundlingOptions);
 

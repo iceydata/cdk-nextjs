@@ -1,0 +1,5990 @@
+{
+  "author": {
+    "email": "mischa@jetbridge.com",
+    "name": "JetBridge",
+    "organization": true,
+    "roles": [
+      "author"
+    ]
+  },
+  "bundled": {
+    "esbuild": "^0.19.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.93.0",
+    "constructs": "^10.0.5"
+  },
+  "dependencyClosure": {
+    "@aws-cdk/asset-awscli-v1": {
+      "targets": {
+        "dotnet": {
+          "namespace": "Amazon.CDK.Asset.AwsCliV1",
+          "packageId": "Amazon.CDK.Asset.AwsCliV1"
+        },
+        "go": {
+          "moduleName": "github.com/cdklabs/awscdk-asset-awscli-go",
+          "packageName": "awscliv1"
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cdk-asset-awscli-v1",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.cdk.asset.awscli.v1"
+        },
+        "js": {
+          "npm": "@aws-cdk/asset-awscli-v1"
+        },
+        "python": {
+          "distName": "aws-cdk.asset-awscli-v1",
+          "module": "aws_cdk.asset_awscli_v1"
+        }
+      }
+    },
+    "@aws-cdk/asset-kubectl-v20": {
+      "targets": {
+        "dotnet": {
+          "namespace": "Amazon.CDK.Asset.KubectlV20",
+          "packageId": "Amazon.CDK.Asset.KubectlV20"
+        },
+        "go": {
+          "moduleName": "github.com/cdklabs/awscdk-asset-kubectl-go",
+          "packageName": "kubectlv20"
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cdk-asset-kubectl-v20",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.cdk.asset.kubectl.v20"
+        },
+        "js": {
+          "npm": "@aws-cdk/asset-kubectl-v20"
+        },
+        "python": {
+          "distName": "aws-cdk.asset-kubectl-v20",
+          "module": "aws_cdk.asset_kubectl_v20"
+        }
+      }
+    },
+    "@aws-cdk/asset-node-proxy-agent-v6": {
+      "targets": {
+        "dotnet": {
+          "namespace": "Amazon.CDK.Asset.NodeProxyAgentV6",
+          "packageId": "Amazon.CDK.Asset.NodeProxyAgentV6"
+        },
+        "go": {
+          "moduleName": "github.com/cdklabs/awscdk-asset-node-proxy-agent-go",
+          "packageName": "nodeproxyagentv6"
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cdk-asset-node-proxy-agent-v6",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.cdk.asset.node.proxy.agent.v6"
+        },
+        "js": {
+          "npm": "@aws-cdk/asset-node-proxy-agent-v6"
+        },
+        "python": {
+          "distName": "aws-cdk.asset-node-proxy-agent-v6",
+          "module": "aws_cdk.asset_node_proxy_agent_v6"
+        }
+      }
+    },
+    "aws-cdk-lib": {
+      "submodules": {
+        "aws-cdk-lib.alexa_ask": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.Alexa.Ask"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.alexa.ask"
+            },
+            "python": {
+              "module": "aws_cdk.alexa_ask"
+            }
+          }
+        },
+        "aws-cdk-lib.assertions": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.Assertions"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.assertions"
+            },
+            "python": {
+              "module": "aws_cdk.assertions"
+            }
+          }
+        },
+        "aws-cdk-lib.assets": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.Assets"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.assets"
+            },
+            "python": {
+              "module": "aws_cdk.assets"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_accessanalyzer": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AccessAnalyzer"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.accessanalyzer"
+            },
+            "python": {
+              "module": "aws_cdk.aws_accessanalyzer"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_acmpca": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ACMPCA"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.acmpca"
+            },
+            "python": {
+              "module": "aws_cdk.aws_acmpca"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_amazonmq": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AmazonMQ"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.amazonmq"
+            },
+            "python": {
+              "module": "aws_cdk.aws_amazonmq"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_amplify": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Amplify"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.amplify"
+            },
+            "python": {
+              "module": "aws_cdk.aws_amplify"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_amplifyuibuilder": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AmplifyUIBuilder"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.amplifyuibuilder"
+            },
+            "python": {
+              "module": "aws_cdk.aws_amplifyuibuilder"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_apigateway": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.APIGateway"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.apigateway"
+            },
+            "python": {
+              "module": "aws_cdk.aws_apigateway"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_apigatewayv2": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Apigatewayv2"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.apigatewayv2"
+            },
+            "python": {
+              "module": "aws_cdk.aws_apigatewayv2"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_appconfig": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AppConfig"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.appconfig"
+            },
+            "python": {
+              "module": "aws_cdk.aws_appconfig"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_appflow": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AppFlow"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.appflow"
+            },
+            "python": {
+              "module": "aws_cdk.aws_appflow"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_appintegrations": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AppIntegrations"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.appintegrations"
+            },
+            "python": {
+              "module": "aws_cdk.aws_appintegrations"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_applicationautoscaling": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ApplicationAutoScaling"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.applicationautoscaling"
+            },
+            "python": {
+              "module": "aws_cdk.aws_applicationautoscaling"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_applicationinsights": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ApplicationInsights"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.applicationinsights"
+            },
+            "python": {
+              "module": "aws_cdk.aws_applicationinsights"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_appmesh": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AppMesh"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.appmesh"
+            },
+            "python": {
+              "module": "aws_cdk.aws_appmesh"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_apprunner": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AppRunner"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.apprunner"
+            },
+            "python": {
+              "module": "aws_cdk.aws_apprunner"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_appstream": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AppStream"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.appstream"
+            },
+            "python": {
+              "module": "aws_cdk.aws_appstream"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_appsync": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AppSync"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.appsync"
+            },
+            "python": {
+              "module": "aws_cdk.aws_appsync"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_aps": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.APS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.aps"
+            },
+            "python": {
+              "module": "aws_cdk.aws_aps"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_athena": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Athena"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.athena"
+            },
+            "python": {
+              "module": "aws_cdk.aws_athena"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_auditmanager": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AuditManager"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.auditmanager"
+            },
+            "python": {
+              "module": "aws_cdk.aws_auditmanager"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_autoscaling": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AutoScaling"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.autoscaling"
+            },
+            "python": {
+              "module": "aws_cdk.aws_autoscaling"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_autoscaling_common": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AutoScaling.Common"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.autoscaling.common"
+            },
+            "python": {
+              "module": "aws_cdk.aws_autoscaling_common"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_autoscaling_hooktargets": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AutoScaling.HookTargets"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.autoscaling.hooktargets"
+            },
+            "python": {
+              "module": "aws_cdk.aws_autoscaling_hooktargets"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_autoscalingplans": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.AutoScalingPlans"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.autoscalingplans"
+            },
+            "python": {
+              "module": "aws_cdk.aws_autoscalingplans"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_backup": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Backup"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.backup"
+            },
+            "python": {
+              "module": "aws_cdk.aws_backup"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_backupgateway": {
+          "targets": {
+            "dotnet": {
+              "package": "Amazon.CDK.AWS.BackupGateway"
+            },
+            "java": {
+              "package": "services.backupgateway"
+            },
+            "python": {
+              "module": "aws_cdk.aws_backupgateway"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_batch": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Batch"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.batch"
+            },
+            "python": {
+              "module": "aws_cdk.aws_batch"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_billingconductor": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.BillingConductor"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.billingconductor"
+            },
+            "python": {
+              "module": "aws_cdk.aws_billingconductor"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_budgets": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Budgets"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.budgets"
+            },
+            "python": {
+              "module": "aws_cdk.aws_budgets"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cassandra": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Cassandra"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cassandra"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cassandra"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ce": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CE"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ce"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ce"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_certificatemanager": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CertificateManager"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.certificatemanager"
+            },
+            "python": {
+              "module": "aws_cdk.aws_certificatemanager"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_chatbot": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Chatbot"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.chatbot"
+            },
+            "python": {
+              "module": "aws_cdk.aws_chatbot"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cleanrooms": {
+          "targets": {
+            "dotnet": {
+              "package": "Amazon.CDK.AWS.CleanRooms"
+            },
+            "java": {
+              "package": "services.cleanrooms"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cleanrooms"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cloud9": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Cloud9"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cloud9"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cloud9"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cloudformation": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CloudFormation"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cloudformation"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cloudformation"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cloudfront": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CloudFront"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cloudfront"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cloudfront"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cloudfront.experimental": {},
+        "aws-cdk-lib.aws_cloudfront_origins": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CloudFront.Origins"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cloudfront.origins"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cloudfront_origins"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cloudtrail": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CloudTrail"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cloudtrail"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cloudtrail"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cloudwatch": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CloudWatch"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cloudwatch"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cloudwatch"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cloudwatch_actions": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CloudWatch.Actions"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cloudwatch.actions"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cloudwatch_actions"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codeartifact": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodeArtifact"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codeartifact"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codeartifact"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codebuild": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodeBuild"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codebuild"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codebuild"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codecommit": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodeCommit"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codecommit"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codecommit"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codedeploy": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodeDeploy"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codedeploy"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codedeploy"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codeguruprofiler": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodeGuruProfiler"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codeguruprofiler"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codeguruprofiler"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codegurureviewer": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodeGuruReviewer"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codegurureviewer"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codegurureviewer"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codepipeline": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodePipeline"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codepipeline"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codepipeline"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codepipeline_actions": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodePipeline.Actions"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codepipeline.actions"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codepipeline_actions"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codestar": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Codestar"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codestar"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codestar"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codestarconnections": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodeStarConnections"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codestarconnections"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codestarconnections"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_codestarnotifications": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CodeStarNotifications"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.codestarnotifications"
+            },
+            "python": {
+              "module": "aws_cdk.aws_codestarnotifications"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cognito": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Cognito"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cognito"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cognito"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_comprehend": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Comprehend"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.comprehend"
+            },
+            "python": {
+              "module": "aws_cdk.aws_comprehend"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_config": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Config"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.config"
+            },
+            "python": {
+              "module": "aws_cdk.aws_config"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_connect": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Connect"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.connect"
+            },
+            "python": {
+              "module": "aws_cdk.aws_connect"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_connectcampaigns": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ConnectCampaigns"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.connectcampaigns"
+            },
+            "python": {
+              "module": "aws_cdk.aws_connectcampaigns"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_controltower": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ControlTower"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.controltower"
+            },
+            "python": {
+              "module": "aws_cdk.aws_controltower"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_cur": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CUR"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.cur"
+            },
+            "python": {
+              "module": "aws_cdk.aws_cur"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_customerprofiles": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.CustomerProfiles"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.customerprofiles"
+            },
+            "python": {
+              "module": "aws_cdk.aws_customerprofiles"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_databrew": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DataBrew"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.databrew"
+            },
+            "python": {
+              "module": "aws_cdk.aws_databrew"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_datapipeline": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DataPipeline"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.datapipeline"
+            },
+            "python": {
+              "module": "aws_cdk.aws_datapipeline"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_datasync": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DataSync"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.datasync"
+            },
+            "python": {
+              "module": "aws_cdk.aws_datasync"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_dax": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DAX"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.dax"
+            },
+            "python": {
+              "module": "aws_cdk.aws_dax"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_detective": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Detective"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.detective"
+            },
+            "python": {
+              "module": "aws_cdk.aws_detective"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_devicefarm": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DeviceFarm"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.devicefarm"
+            },
+            "python": {
+              "module": "aws_cdk.aws_devicefarm"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_devopsguru": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DevOpsGuru"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.devopsguru"
+            },
+            "python": {
+              "module": "aws_cdk.aws_devopsguru"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_directoryservice": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DirectoryService"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.directoryservice"
+            },
+            "python": {
+              "module": "aws_cdk.aws_directoryservice"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_dlm": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DLM"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.dlm"
+            },
+            "python": {
+              "module": "aws_cdk.aws_dlm"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_dms": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DMS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.dms"
+            },
+            "python": {
+              "module": "aws_cdk.aws_dms"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_docdb": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DocDB"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.docdb"
+            },
+            "python": {
+              "module": "aws_cdk.aws_docdb"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_docdbelastic": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DocDBElastic"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.docdbelastic"
+            },
+            "python": {
+              "module": "aws_cdk.aws_docdbelastic"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_dynamodb": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.DynamoDB"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.dynamodb"
+            },
+            "python": {
+              "module": "aws_cdk.aws_dynamodb"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ec2": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.EC2"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ec2"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ec2"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ecr": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ECR"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ecr"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ecr"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ecr_assets": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Ecr.Assets"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ecr.assets"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ecr_assets"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ecs": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ECS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ecs"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ecs"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ecs_patterns": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ECS.Patterns"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ecs.patterns"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ecs_patterns"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_efs": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.EFS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.efs"
+            },
+            "python": {
+              "module": "aws_cdk.aws_efs"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_eks": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.EKS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.eks"
+            },
+            "python": {
+              "module": "aws_cdk.aws_eks"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_elasticache": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ElastiCache"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.elasticache"
+            },
+            "python": {
+              "module": "aws_cdk.aws_elasticache"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_elasticbeanstalk": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ElasticBeanstalk"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.elasticbeanstalk"
+            },
+            "python": {
+              "module": "aws_cdk.aws_elasticbeanstalk"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_elasticloadbalancing": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ElasticLoadBalancing"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.elasticloadbalancing"
+            },
+            "python": {
+              "module": "aws_cdk.aws_elasticloadbalancing"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_elasticloadbalancingv2": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ElasticLoadBalancingV2"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.elasticloadbalancingv2"
+            },
+            "python": {
+              "module": "aws_cdk.aws_elasticloadbalancingv2"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_elasticloadbalancingv2_actions": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ElasticLoadBalancingV2.Actions"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.elasticloadbalancingv2.actions"
+            },
+            "python": {
+              "module": "aws_cdk.aws_elasticloadbalancingv2_actions"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_elasticloadbalancingv2_targets": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ElasticLoadBalancingV2.Targets"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.elasticloadbalancingv2.targets"
+            },
+            "python": {
+              "module": "aws_cdk.aws_elasticloadbalancingv2_targets"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_elasticsearch": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Elasticsearch"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.elasticsearch"
+            },
+            "python": {
+              "module": "aws_cdk.aws_elasticsearch"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_emr": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.EMR"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.emr"
+            },
+            "python": {
+              "module": "aws_cdk.aws_emr"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_emrcontainers": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.EMRContainers"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.emrcontainers"
+            },
+            "python": {
+              "module": "aws_cdk.aws_emrcontainers"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_emrserverless": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.EMRServerless"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.emrserverless"
+            },
+            "python": {
+              "module": "aws_cdk.aws_emrserverless"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_events": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Events"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.events"
+            },
+            "python": {
+              "module": "aws_cdk.aws_events"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_events_targets": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Events.Targets"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.events.targets"
+            },
+            "python": {
+              "module": "aws_cdk.aws_events_targets"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_eventschemas": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.EventSchemas"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.eventschemas"
+            },
+            "python": {
+              "module": "aws_cdk.aws_eventschemas"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_evidently": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Evidently"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.evidently"
+            },
+            "python": {
+              "module": "aws_cdk.aws_evidently"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_finspace": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.FinSpace"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.finspace"
+            },
+            "python": {
+              "module": "aws_cdk.aws_finspace"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_fis": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.FIS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.fis"
+            },
+            "python": {
+              "module": "aws_cdk.aws_fis"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_fms": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.FMS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.fms"
+            },
+            "python": {
+              "module": "aws_cdk.aws_fms"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_forecast": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Forecast"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.forecast"
+            },
+            "python": {
+              "module": "aws_cdk.aws_forecast"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_frauddetector": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.FraudDetector"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.frauddetector"
+            },
+            "python": {
+              "module": "aws_cdk.aws_frauddetector"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_fsx": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.FSx"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.fsx"
+            },
+            "python": {
+              "module": "aws_cdk.aws_fsx"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_gamelift": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.GameLift"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.gamelift"
+            },
+            "python": {
+              "module": "aws_cdk.aws_gamelift"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_globalaccelerator": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.GlobalAccelerator"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.globalaccelerator"
+            },
+            "python": {
+              "module": "aws_cdk.aws_globalaccelerator"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_globalaccelerator_endpoints": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.GlobalAccelerator.Endpoints"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.globalaccelerator.endpoints"
+            },
+            "python": {
+              "module": "aws_cdk.aws_globalaccelerator_endpoints"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_glue": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Glue"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.glue"
+            },
+            "python": {
+              "module": "aws_cdk.aws_glue"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_grafana": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Grafana"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.grafana"
+            },
+            "python": {
+              "module": "aws_cdk.aws_grafana"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_greengrass": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Greengrass"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.greengrass"
+            },
+            "python": {
+              "module": "aws_cdk.aws_greengrass"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_greengrassv2": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.GreengrassV2"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.greengrassv2"
+            },
+            "python": {
+              "module": "aws_cdk.aws_greengrassv2"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_groundstation": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.GroundStation"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.groundstation"
+            },
+            "python": {
+              "module": "aws_cdk.aws_groundstation"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_guardduty": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.GuardDuty"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.guardduty"
+            },
+            "python": {
+              "module": "aws_cdk.aws_guardduty"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_healthlake": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.HealthLake"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.healthlake"
+            },
+            "python": {
+              "module": "aws_cdk.aws_healthlake"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iam": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IAM"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iam"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iam"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_identitystore": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IdentityStore"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.identitystore"
+            },
+            "python": {
+              "module": "aws_cdk.aws_identitystore"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_imagebuilder": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ImageBuilder"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.imagebuilder"
+            },
+            "python": {
+              "module": "aws_cdk.aws_imagebuilder"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_inspector": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Inspector"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.inspector"
+            },
+            "python": {
+              "module": "aws_cdk.aws_inspector"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_inspectorv2": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.InspectorV2"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.inspectorv2"
+            },
+            "python": {
+              "module": "aws_cdk.aws_inspectorv2"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_internetmonitor": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.InternetMonitor"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.internetmonitor"
+            },
+            "python": {
+              "module": "aws_cdk.aws_internetmonitor"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iot": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoT"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iot"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iot"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iot1click": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoT1Click"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iot1click"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iot1click"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iotanalytics": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoTAnalytics"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iotanalytics"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iotanalytics"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iotcoredeviceadvisor": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoTCoreDeviceAdvisor"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iotcoredeviceadvisor"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iotcoredeviceadvisor"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iotevents": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoTEvents"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iotevents"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iotevents"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iotfleethub": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoTFleetHub"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iotfleethub"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iotfleethub"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iotfleetwise": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoTFleetWise"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iotfleetwise"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iotfleetwise"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iotsitewise": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoTSiteWise"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iotsitewise"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iotsitewise"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iotthingsgraph": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoTThingsGraph"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iotthingsgraph"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iotthingsgraph"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iottwinmaker": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoTTwinMaker"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iottwinmaker"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iottwinmaker"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_iotwireless": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IoTWireless"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.iotwireless"
+            },
+            "python": {
+              "module": "aws_cdk.aws_iotwireless"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ivs": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Ivs"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ivs"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ivs"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ivschat": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.IVSChat"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ivschat"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ivschat"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_kafkaconnect": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.KafkaConnect"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.kafkaconnect"
+            },
+            "python": {
+              "module": "aws_cdk.aws_kafkaconnect"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_kendra": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Kendra"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.kendra"
+            },
+            "python": {
+              "module": "aws_cdk.aws_kendra"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_kendraranking": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.KendraRanking"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.kendraranking"
+            },
+            "python": {
+              "module": "aws_cdk.aws_kendraranking"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_kinesis": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Kinesis"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.kinesis"
+            },
+            "python": {
+              "module": "aws_cdk.aws_kinesis"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_kinesisanalytics": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.KinesisAnalytics"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.kinesisanalytics"
+            },
+            "python": {
+              "module": "aws_cdk.aws_kinesisanalytics"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_kinesisanalyticsv2": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.KinesisAnalyticsV2"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.kinesisanalyticsv2"
+            },
+            "python": {
+              "module": "aws_cdk.aws_kinesisanalyticsv2"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_kinesisfirehose": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.KinesisFirehose"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.kinesisfirehose"
+            },
+            "python": {
+              "module": "aws_cdk.aws_kinesisfirehose"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_kinesisvideo": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.KinesisVideo"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.kinesisvideo"
+            },
+            "python": {
+              "module": "aws_cdk.aws_kinesisvideo"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_kms": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.KMS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.kms"
+            },
+            "python": {
+              "module": "aws_cdk.aws_kms"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lakeformation": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.LakeFormation"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lakeformation"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lakeformation"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lambda": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Lambda"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lambda"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lambda"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lambda_destinations": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Lambda.Destinations"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lambda.destinations"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lambda_destinations"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lambda_event_sources": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Lambda.EventSources"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lambda.eventsources"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lambda_event_sources"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lambda_nodejs": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Lambda.Nodejs"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lambda.nodejs"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lambda_nodejs"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lex": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Lex"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lex"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lex"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_licensemanager": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.LicenseManager"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.licensemanager"
+            },
+            "python": {
+              "module": "aws_cdk.aws_licensemanager"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lightsail": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Lightsail"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lightsail"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lightsail"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_location": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Location"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.location"
+            },
+            "python": {
+              "module": "aws_cdk.aws_location"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_logs": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Logs"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.logs"
+            },
+            "python": {
+              "module": "aws_cdk.aws_logs"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_logs_destinations": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Logs.Destinations"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.logs.destinations"
+            },
+            "python": {
+              "module": "aws_cdk.aws_logs_destinations"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lookoutequipment": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.LookoutEquipment"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lookoutequipment"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lookoutequipment"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lookoutmetrics": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.LookoutMetrics"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lookoutmetrics"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lookoutmetrics"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_lookoutvision": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.LookoutVision"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.lookoutvision"
+            },
+            "python": {
+              "module": "aws_cdk.aws_lookoutvision"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_m2": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.M2"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.m2"
+            },
+            "python": {
+              "module": "aws_cdk.aws_m2"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_macie": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Macie"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.macie"
+            },
+            "python": {
+              "module": "aws_cdk.aws_macie"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_managedblockchain": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ManagedBlockchain"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.managedblockchain"
+            },
+            "python": {
+              "module": "aws_cdk.aws_managedblockchain"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_mediaconnect": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.MediaConnect"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.mediaconnect"
+            },
+            "python": {
+              "module": "aws_cdk.aws_mediaconnect"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_mediaconvert": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.MediaConvert"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.mediaconvert"
+            },
+            "python": {
+              "module": "aws_cdk.aws_mediaconvert"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_medialive": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.MediaLive"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.medialive"
+            },
+            "python": {
+              "module": "aws_cdk.aws_medialive"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_mediapackage": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.MediaPackage"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.mediapackage"
+            },
+            "python": {
+              "module": "aws_cdk.aws_mediapackage"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_mediastore": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.MediaStore"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.mediastore"
+            },
+            "python": {
+              "module": "aws_cdk.aws_mediastore"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_mediatailor": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.MediaTailor"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.mediatailor"
+            },
+            "python": {
+              "module": "aws_cdk.aws_mediatailor"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_memorydb": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.MemoryDB"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.memorydb"
+            },
+            "python": {
+              "module": "aws_cdk.aws_memorydb"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_msk": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.MSK"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.msk"
+            },
+            "python": {
+              "module": "aws_cdk.aws_msk"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_mwaa": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.MWAA"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.mwaa"
+            },
+            "python": {
+              "module": "aws_cdk.aws_mwaa"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_neptune": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Neptune"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.neptune"
+            },
+            "python": {
+              "module": "aws_cdk.aws_neptune"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_networkfirewall": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.NetworkFirewall"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.networkfirewall"
+            },
+            "python": {
+              "module": "aws_cdk.aws_networkfirewall"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_networkmanager": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.NetworkManager"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.networkmanager"
+            },
+            "python": {
+              "module": "aws_cdk.aws_networkmanager"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_nimblestudio": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.NimbleStudio"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.nimblestudio"
+            },
+            "python": {
+              "module": "aws_cdk.aws_nimblestudio"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_oam": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Oam"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.oam"
+            },
+            "python": {
+              "module": "aws_cdk.aws_oam"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_omics": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Omics"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.omics"
+            },
+            "python": {
+              "module": "aws_cdk.aws_omics"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_opensearchserverless": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.OpenSearchServerless"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.opensearchserverless"
+            },
+            "python": {
+              "module": "aws_cdk.aws_opensearchserverless"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_opensearchservice": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.OpenSearchService"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.opensearchservice"
+            },
+            "python": {
+              "module": "aws_cdk.aws_opensearchservice"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_opsworks": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.OpsWorks"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.opsworks"
+            },
+            "python": {
+              "module": "aws_cdk.aws_opsworks"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_opsworkscm": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.OpsWorksCM"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.opsworkscm"
+            },
+            "python": {
+              "module": "aws_cdk.aws_opsworkscm"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_organizations": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Organizations"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.organizations"
+            },
+            "python": {
+              "module": "aws_cdk.aws_organizations"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_osis": {
+          "targets": {
+            "dotnet": {
+              "package": "Amazon.CDK.AWS.OSIS"
+            },
+            "java": {
+              "package": "services.osis"
+            },
+            "python": {
+              "module": "aws_cdk.aws_osis"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_panorama": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Panorama"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.panorama"
+            },
+            "python": {
+              "module": "aws_cdk.aws_panorama"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_personalize": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Personalize"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.personalize"
+            },
+            "python": {
+              "module": "aws_cdk.aws_personalize"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_pinpoint": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Pinpoint"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.pinpoint"
+            },
+            "python": {
+              "module": "aws_cdk.aws_pinpoint"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_pinpointemail": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.PinpointEmail"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.pinpointemail"
+            },
+            "python": {
+              "module": "aws_cdk.aws_pinpointemail"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_pipes": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Pipes"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.pipes"
+            },
+            "python": {
+              "module": "aws_cdk.aws_pipes"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_proton": {
+          "targets": {
+            "dotnet": {
+              "package": "Amazon.CDK.AWS.Proton"
+            },
+            "java": {
+              "package": "services.proton"
+            },
+            "python": {
+              "module": "aws_cdk.aws_proton"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_qldb": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.QLDB"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.qldb"
+            },
+            "python": {
+              "module": "aws_cdk.aws_qldb"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_quicksight": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.QuickSight"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.quicksight"
+            },
+            "python": {
+              "module": "aws_cdk.aws_quicksight"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ram": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.RAM"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ram"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ram"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_rds": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.RDS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.rds"
+            },
+            "python": {
+              "module": "aws_cdk.aws_rds"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_redshift": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Redshift"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.redshift"
+            },
+            "python": {
+              "module": "aws_cdk.aws_redshift"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_redshiftserverless": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.RedshiftServerless"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.redshiftserverless"
+            },
+            "python": {
+              "module": "aws_cdk.aws_redshiftserverless"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_refactorspaces": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.RefactorSpaces"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.refactorspaces"
+            },
+            "python": {
+              "module": "aws_cdk.aws_refactorspaces"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_rekognition": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Rekognition"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.rekognition"
+            },
+            "python": {
+              "module": "aws_cdk.aws_rekognition"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_resiliencehub": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ResilienceHub"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.resiliencehub"
+            },
+            "python": {
+              "module": "aws_cdk.aws_resiliencehub"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_resourceexplorer2": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ResourceExplorer2"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.resourceexplorer2"
+            },
+            "python": {
+              "module": "aws_cdk.aws_resourceexplorer2"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_resourcegroups": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ResourceGroups"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.resourcegroups"
+            },
+            "python": {
+              "module": "aws_cdk.aws_resourcegroups"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_robomaker": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.RoboMaker"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.robomaker"
+            },
+            "python": {
+              "module": "aws_cdk.aws_robomaker"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_rolesanywhere": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.RolesAnywhere"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.rolesanywhere"
+            },
+            "python": {
+              "module": "aws_cdk.aws_rolesanywhere"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_route53": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Route53"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.route53"
+            },
+            "python": {
+              "module": "aws_cdk.aws_route53"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_route53_patterns": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Route53.Patterns"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.route53.patterns"
+            },
+            "python": {
+              "module": "aws_cdk.aws_route53_patterns"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_route53_targets": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Route53.Targets"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.route53.targets"
+            },
+            "python": {
+              "module": "aws_cdk.aws_route53_targets"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_route53recoverycontrol": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Route53RecoveryControl"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.route53recoverycontrol"
+            },
+            "python": {
+              "module": "aws_cdk.aws_route53recoverycontrol"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_route53recoveryreadiness": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Route53RecoveryReadiness"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.route53recoveryreadiness"
+            },
+            "python": {
+              "module": "aws_cdk.aws_route53recoveryreadiness"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_route53resolver": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Route53Resolver"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.route53resolver"
+            },
+            "python": {
+              "module": "aws_cdk.aws_route53resolver"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_rum": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.RUM"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.rum"
+            },
+            "python": {
+              "module": "aws_cdk.aws_rum"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_s3": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.S3"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.s3"
+            },
+            "python": {
+              "module": "aws_cdk.aws_s3"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_s3_assets": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.S3.Assets"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.s3.assets"
+            },
+            "python": {
+              "module": "aws_cdk.aws_s3_assets"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_s3_deployment": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.S3.Deployment"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.s3.deployment"
+            },
+            "python": {
+              "module": "aws_cdk.aws_s3_deployment"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_s3_notifications": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.S3.Notifications"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.s3.notifications"
+            },
+            "python": {
+              "module": "aws_cdk.aws_s3_notifications"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_s3objectlambda": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.S3ObjectLambda"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.s3objectlambda"
+            },
+            "python": {
+              "module": "aws_cdk.aws_s3objectlambda"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_s3outposts": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.S3Outposts"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.s3outposts"
+            },
+            "python": {
+              "module": "aws_cdk.aws_s3outposts"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_sagemaker": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Sagemaker"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.sagemaker"
+            },
+            "python": {
+              "module": "aws_cdk.aws_sagemaker"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_sam": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SAM"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.sam"
+            },
+            "python": {
+              "module": "aws_cdk.aws_sam"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_scheduler": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Scheduler"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.scheduler"
+            },
+            "python": {
+              "module": "aws_cdk.aws_scheduler"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_sdb": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SDB"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.sdb"
+            },
+            "python": {
+              "module": "aws_cdk.aws_sdb"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_secretsmanager": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SecretsManager"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.secretsmanager"
+            },
+            "python": {
+              "module": "aws_cdk.aws_secretsmanager"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_securityhub": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SecurityHub"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.securityhub"
+            },
+            "python": {
+              "module": "aws_cdk.aws_securityhub"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_servicecatalog": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Servicecatalog"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.servicecatalog"
+            },
+            "python": {
+              "module": "aws_cdk.aws_servicecatalog"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_servicecatalogappregistry": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Servicecatalogappregistry"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.servicecatalogappregistry"
+            },
+            "python": {
+              "module": "aws_cdk.aws_servicecatalogappregistry"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_servicediscovery": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.ServiceDiscovery"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.servicediscovery"
+            },
+            "python": {
+              "module": "aws_cdk.aws_servicediscovery"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ses": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SES"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ses"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ses"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ses_actions": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SES.Actions"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ses.actions"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ses_actions"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_shield": {
+          "targets": {
+            "dotnet": {
+              "package": "Amazon.CDK.AWS.Shield"
+            },
+            "java": {
+              "package": "services.shield"
+            },
+            "python": {
+              "module": "aws_cdk.aws_shield"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_signer": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Signer"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.signer"
+            },
+            "python": {
+              "module": "aws_cdk.aws_signer"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_simspaceweaver": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SimSpaceWeaver"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.simspaceweaver"
+            },
+            "python": {
+              "module": "aws_cdk.aws_simspaceweaver"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_sns": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SNS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.sns"
+            },
+            "python": {
+              "module": "aws_cdk.aws_sns"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_sns_subscriptions": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SNS.Subscriptions"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.sns.subscriptions"
+            },
+            "python": {
+              "module": "aws_cdk.aws_sns_subscriptions"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_sqs": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SQS"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.sqs"
+            },
+            "python": {
+              "module": "aws_cdk.aws_sqs"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ssm": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SSM"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ssm"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ssm"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ssmcontacts": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SSMContacts"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ssmcontacts"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ssmcontacts"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_ssmincidents": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SSMIncidents"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.ssmincidents"
+            },
+            "python": {
+              "module": "aws_cdk.aws_ssmincidents"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_sso": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SSO"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.sso"
+            },
+            "python": {
+              "module": "aws_cdk.aws_sso"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_stepfunctions": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.StepFunctions"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.stepfunctions"
+            },
+            "python": {
+              "module": "aws_cdk.aws_stepfunctions"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_stepfunctions_tasks": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.StepFunctions.Tasks"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.stepfunctions.tasks"
+            },
+            "python": {
+              "module": "aws_cdk.aws_stepfunctions_tasks"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_supportapp": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SupportApp"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.supportapp"
+            },
+            "python": {
+              "module": "aws_cdk.aws_supportapp"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_synthetics": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Synthetics"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.synthetics"
+            },
+            "python": {
+              "module": "aws_cdk.aws_synthetics"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_systemsmanagersap": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.SystemsManagerSAP"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.systemsmanagersap"
+            },
+            "python": {
+              "module": "aws_cdk.aws_systemsmanagersap"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_timestream": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Timestream"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.timestream"
+            },
+            "python": {
+              "module": "aws_cdk.aws_timestream"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_transfer": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Transfer"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.transfer"
+            },
+            "python": {
+              "module": "aws_cdk.aws_transfer"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_verifiedpermissions": {
+          "targets": {
+            "dotnet": {
+              "package": "Amazon.CDK.AWS.VerifiedPermissions"
+            },
+            "java": {
+              "package": "services.verifiedpermissions"
+            },
+            "python": {
+              "module": "aws_cdk.aws_verifiedpermissions"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_voiceid": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.VoiceID"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.voiceid"
+            },
+            "python": {
+              "module": "aws_cdk.aws_voiceid"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_vpclattice": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.VpcLattice"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.vpclattice"
+            },
+            "python": {
+              "module": "aws_cdk.aws_vpclattice"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_waf": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.WAF"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.waf"
+            },
+            "python": {
+              "module": "aws_cdk.aws_waf"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_wafregional": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.WAFRegional"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.waf.regional"
+            },
+            "python": {
+              "module": "aws_cdk.aws_wafregional"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_wafv2": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.WAFv2"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.wafv2"
+            },
+            "python": {
+              "module": "aws_cdk.aws_wafv2"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_wisdom": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.Wisdom"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.wisdom"
+            },
+            "python": {
+              "module": "aws_cdk.aws_wisdom"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_workspaces": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.WorkSpaces"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.workspaces"
+            },
+            "python": {
+              "module": "aws_cdk.aws_workspaces"
+            }
+          }
+        },
+        "aws-cdk-lib.aws_xray": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.AWS.XRay"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.services.xray"
+            },
+            "python": {
+              "module": "aws_cdk.aws_xray"
+            }
+          }
+        },
+        "aws-cdk-lib.cloud_assembly_schema": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.CloudAssembly.Schema"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.cloudassembly.schema"
+            },
+            "python": {
+              "module": "aws_cdk.cloud_assembly_schema"
+            }
+          }
+        },
+        "aws-cdk-lib.cloudformation_include": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.CloudFormation.Include"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.cloudformation.include"
+            },
+            "python": {
+              "module": "aws_cdk.cloudformation_include"
+            }
+          }
+        },
+        "aws-cdk-lib.custom_resources": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.CustomResources"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.customresources"
+            },
+            "python": {
+              "module": "aws_cdk.custom_resources"
+            }
+          }
+        },
+        "aws-cdk-lib.cx_api": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.CXAPI"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.cxapi"
+            },
+            "python": {
+              "module": "aws_cdk.cx_api"
+            }
+          }
+        },
+        "aws-cdk-lib.lambda_layer_awscli": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.LambdaLayer.AwsCli"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.lambdalayer.awscli"
+            },
+            "python": {
+              "module": "aws_cdk.lambda_layer_awscli"
+            }
+          }
+        },
+        "aws-cdk-lib.lambda_layer_kubectl": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.LambdaLayer.Kubectl"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.lambdalayer.kubectl"
+            },
+            "python": {
+              "module": "aws_cdk.lambda_layer_kubectl"
+            }
+          }
+        },
+        "aws-cdk-lib.lambda_layer_node_proxy_agent": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.LambdaLayer.NodeProxyAgent"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.lambda.layer.node.proxy.agent"
+            },
+            "python": {
+              "module": "aws_cdk.lambda_layer_node_proxy_agent"
+            }
+          }
+        },
+        "aws-cdk-lib.pipelines": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.Pipelines"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.pipelines"
+            },
+            "python": {
+              "module": "aws_cdk.pipelines"
+            }
+          }
+        },
+        "aws-cdk-lib.region_info": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.RegionInfo"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.regioninfo"
+            },
+            "python": {
+              "module": "aws_cdk.region_info"
+            }
+          }
+        },
+        "aws-cdk-lib.triggers": {
+          "targets": {
+            "dotnet": {
+              "namespace": "Amazon.CDK.Triggers"
+            },
+            "java": {
+              "package": "software.amazon.awscdk.triggers"
+            },
+            "python": {
+              "module": "aws_cdk.triggers"
+            }
+          }
+        }
+      },
+      "targets": {
+        "dotnet": {
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/main/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK",
+          "packageId": "Amazon.CDK.Lib"
+        },
+        "go": {
+          "moduleName": "github.com/aws/aws-cdk-go",
+          "packageName": "awscdk"
+        },
+        "java": {
+          "maven": {
+            "artifactId": "aws-cdk-lib",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk"
+        },
+        "js": {
+          "npm": "aws-cdk-lib"
+        },
+        "python": {
+          "distName": "aws-cdk-lib",
+          "module": "aws_cdk"
+        }
+      }
+    },
+    "constructs": {
+      "targets": {
+        "dotnet": {
+          "namespace": "Constructs",
+          "packageId": "Constructs"
+        },
+        "go": {
+          "moduleName": "github.com/aws/constructs-go"
+        },
+        "java": {
+          "maven": {
+            "artifactId": "constructs",
+            "groupId": "software.constructs"
+          },
+          "package": "software.constructs"
+        },
+        "js": {
+          "npm": "constructs"
+        },
+        "python": {
+          "distName": "constructs",
+          "module": "constructs"
+        }
+      }
+    }
+  },
+  "description": "Deploy a NextJS app to AWS using CDK. Uses standalone build and output tracing.",
+  "docs": {
+    "stability": "stable"
+  },
+  "homepage": "https://github.com/jetbridge/cdk-nextjs.git",
+  "jsiiVersion": "5.0.21 (build 1951a18)",
+  "keywords": [
+    "aws",
+    "aws-cdk",
+    "cdk",
+    "cloud",
+    "iac",
+    "infrastructure",
+    "next",
+    "nextjs",
+    "serverless",
+    "standalone"
+  ],
+  "license": "Apache-2.0",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    },
+    "tscRootDir": "src"
+  },
+  "name": "cdk-nextjs-standalone",
+  "readme": {
+    "markdown": "# Deploy NextJS with CDK\n\n[![View on Construct Hub](https://constructs.dev/badge?package=cdk-nextjs-standalone)](https://constructs.dev/packages/cdk-nextjs-standalone)\n\n## What is this?\n\nA CDK construct to deploy a NextJS app using AWS CDK.\nSupported NextJs versions: >=12.3.0+ (includes 13.0.0+)\n\nUses the [standalone output](https://nextjs.org/docs/advanced-features/output-file-tracing) build mode.\n\n## Quickstart\n```ts\nimport { App, Stack, StackProps } from 'aws-cdk-lib';\nimport { Construct } from 'constructs';\nimport { Nextjs } from 'cdk-nextjs-standalone';\n\nclass WebStack extends Stack {\n  constructor(scope: Construct, id: string, props?: StackProps) {\n    super(scope, id, props);\n    const nextjs = new Nextjs(this, 'Nextjs', {\n      nextjsPath: './web', // relative path from your project root to NextJS\n    });\n    new CfnOutput(this, \"CloudFrontDistributionDomain\", {\n      value: nextjs.distribution.distributionDomain,\n    });\n  }\n}\n\nconst app = new App();\nnew WebStack(app, 'web');\n```\n\n## Important Notes\n- Due to CloudFront's Distribution Cache Behavior pattern matching limitations, a cache behavior will be created for each top level file or directory in your `public/` folder. CloudFront has a soft limit of [25 cache behaviors per distribution](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-web-distributions). Therefore, it's recommended to include all assets that can be under a top level folder like `public/static/`. Learn more in open-next docs [here](https://github.com/sst/open-next/blob/main/README.md#workaround-create-one-cache-behavior-per-top-level-file-and-folder-in-public-aws-specific).\n\n## Documentation\n\nAvailable on [Construct Hub](https://constructs.dev/packages/cdk-nextjs-standalone/).\n\n## Customization\n\n### Increased Security\n```ts\nimport { RemovalPolicy, Stack } from \"aws-cdk-lib\";\nimport { Construct } from \"constructs\";\nimport { CfnWebAcl } from \"aws-cdk-lib/aws-wafv2\";\nimport { SecurityPolicyProtocol, type DistributionProps } from \"aws-cdk-lib/aws-cloudfront\";\nimport { Nextjs, type NextjsDistributionProps } from \"cdk-nextjs-standalone\";\nimport { Bucket, BlockPublicAccess, BucketEncryption } from \"aws-cdk-lib/aws-s3\";\n\n// Because of `WebAcl`, this stack must be deployed in us-east-1. If you want\n// to deploy Nextjs in another region, add WAF in separate stack deployed in us-east-1\nexport class UiStack {\n  constructor(scope: Construct, id: string) {\n    const webAcl = new CfnWebAcl(this, \"WebAcl\", { ... });\n    new Nextjs(this, \"NextSite\", {\n      nextjsPath: \"...\",\n      defaults: {\n        distribution: {\n          functionUrlAuthType: FunctionUrlAuthType.AWS_IAM,\n          cdk: {\n            distribution: {\n              webAclId: webAcl.attrArn,\n              minimumProtocolVersion: SecurityPolicyProtocol.TLS_V1_2_2021,\n            } as DistributionProps,\n          },\n        } satisfies Partial<NextjsDistributionProps>,\n      },\n    });\n  }\n}\n```\n\n### Discord Chat\n\nWe're in the #open-next channel on the [Serverless Stack Discord](https://discord.gg/sst).\n\n## About\n\nDeploys a NextJs static site with server-side rendering and API support. Uses AWS lambda and CloudFront.\n\nThere is a new (since Next 12) [standalone output mode which uses output tracing](https://nextjs.org/docs/advanced-features/output-file-tracing) to generate a minimal server and static files.\nThis standalone server can be converted into a CloudFront distribution and a lambda handler that handles SSR, API, and routing.\n\nThe CloudFront default origin first checks S3 for static files and falls back to an HTTP origin using a lambda function URL.\n\n## Benefits\n\nThis approach is most compatible with new NextJs features such as ESM configuration, [middleware](https://nextjs.org/docs/advanced-features/middleware), next-auth, and React server components (\"appDir\").\n\nThe unmaintained [@serverless-nextjs project](https://github.com/serverless-nextjs/serverless-next.js) uses the deprecated `serverless` NextJs build target which [prevents the use of new features](https://github.com/serverless-nextjs/serverless-next.js/pull/2478).\nThis construct was created to use the new `standalone` output build and newer AWS features like lambda function URLs and fallback origins.\n\nYou may want to look at [Serverless Stack](https://sst.dev) and its [NextjsSite](https://docs.sst.dev/constructs/NextjsSite) construct for an improved developer experience if you are building serverless applications on CDK.\n\n## Dependencies\n\nBuilt on top of [open-next](https://open-next.js.org/), which was partially built using the original core of cdk-nextjs-standalone.\n\n## Heavily based on\n\n- [Open-next](https://open-next.js.org/)\n- <https://github.com/iiroj/iiro.fi/commit/bd43222032d0dbb765e1111825f64dbb5db851d9>\n- <https://github.com/sladg/nextjs-lambda>\n- <https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/compat-layers/apigw-lambda-compat>\n- [Serverless Stack](https://github.com/serverless-stack/sst)\n  - [RemixSite](https://github.com/serverless-stack/sst/blob/master/packages/resources/src/NextjsSite.ts) construct\n  - [NextjsSite](https://github.com/serverless-stack/sst/blob/master/packages/resources/src/RemixSite.ts) construct\n\n## Contribute\n\nHey there, we value every new contribution a lot 🙏🏼 thank you.\n\nHere is a short HowTo before you get started:\n\n1. Please make sure to create a bug first\n2. Link the bug in your pull request\n3. Run `yarn build` after you made your changes and before you open a pull request\n\n### Projen\nDon't manually update package.json or use npm CLI. Update dependencies in .projenrc.js then run yarn projen.\n\n## Breaking changes\n\nSee [here](./docs/major-changes.md).\n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jetbridge/cdk-nextjs.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "js": {
+      "npm": "cdk-nextjs-standalone"
+    }
+  },
+  "types": {
+    "cdk-nextjs-standalone.BaseSiteDomainProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.BaseSiteDomainProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsBase.ts",
+        "line": 65
+      },
+      "name": "BaseSiteDomainProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Supports domains that are hosted either on [Route 53](https://aws.amazon.com/route53/) or externally.",
+            "stability": "stable",
+            "summary": "The domain to be assigned to the website URL (ie. domain.com)."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 71
+          },
+          "name": "domainName",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Note, certificates for these names will not be automatically generated so the `certificate` option must be specified.",
+            "stability": "stable",
+            "summary": "Specify additional names that should route to the Cloudfront Distribution."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 81
+          },
+          "name": "alternateNames",
+          "optional": true,
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "array"
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "By default, SST will create a certificate with the domain name. The certificate will be created in the `us-east-1`(N. Virginia) region as required by AWS CloudFront.\n\nSet this option if you have an existing certificate in the `us-east-1` region in AWS Certificate Manager you want to use.",
+            "stability": "stable",
+            "summary": "Import the certificate for the domain."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 96
+          },
+          "name": "certificate",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_certificatemanager.ICertificate"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Visitors to the alias will be redirected to the main domain. (ie. `www.domain.com`).\n\nUse this to create a `www.` version of your domain and redirect visitors to the root domain.",
+            "stability": "stable",
+            "summary": "An alternative domain to be assigned to the website URL."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 77
+          },
+          "name": "domainAlias",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Import the underlying Route 53 hosted zone."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 90
+          },
+          "name": "hostedZone",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_route53.IHostedZone"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Set this option if the domain is not hosted on Amazon Route 53."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 85
+          },
+          "name": "isExternalDomain",
+          "optional": true,
+          "type": {
+            "primitive": "boolean"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsBase:BaseSiteDomainProps"
+    },
+    "cdk-nextjs-standalone.Nextjs": {
+      "assembly": "cdk-nextjs-standalone",
+      "base": "constructs.Construct",
+      "docs": {
+        "example": "new Nextjs(this, \"Web\", {\n  nextjsPath: path.resolve(\"packages/web\"),\n})",
+        "remarks": "Your standalone server application will be bundled using o(utput tracing and will be deployed to a Lambda function.\nStatic assets will be deployed to an S3 bucket and served via CloudFront.\nYou must use Next.js 10.3.0 or newer.\n\nPlease provide a `nextjsPath` to the Next.js app inside your project.",
+        "stability": "stable",
+        "summary": "The `Nextjs` construct is a higher level construct that makes it easy to create a NextJS app."
+      },
+      "fqn": "cdk-nextjs-standalone.Nextjs",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/Nextjs.ts",
+          "line": 119
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-nextjs-standalone.NextjsProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/Nextjs.ts",
+        "line": 74
+      },
+      "name": "Nextjs",
+      "properties": [
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Convenience method to access `Nextjs.staticAssets.bucket`."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 183
+          },
+          "name": "bucket",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3.IBucket"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Where build-time assets for deployment are stored."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 103
+          },
+          "name": "tempBuildDir",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "URL of Next.js App."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 175
+          },
+          "name": "url",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "CloudFront distribution."
+          },
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 98
+          },
+          "name": "distribution",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsDistribution"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The image optimization handler lambda function."
+          },
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 83
+          },
+          "name": "imageOptimizationFunction",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsImage"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 117
+          },
+          "name": "imageOptimizationLambdaFunctionUrl",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.FunctionUrl"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 116
+          },
+          "name": "lambdaFunctionUrl",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.FunctionUrl"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Built NextJS project output."
+          },
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 88
+          },
+          "name": "nextBuild",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsBuild"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 119
+          },
+          "name": "props",
+          "protected": true,
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsProps"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Revalidation handler and queue."
+          },
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 114
+          },
+          "name": "revalidation",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsRevalidation"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The main NextJS server handler lambda function."
+          },
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 78
+          },
+          "name": "serverFunction",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsServer"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Asset deployment to S3."
+          },
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 93
+          },
+          "name": "staticAssets",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsStaticAssets"
+          }
+        }
+      ],
+      "symbolId": "src/Nextjs:Nextjs"
+    },
+    "cdk-nextjs-standalone.NextjsBaseProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable",
+        "summary": "Common props shared across NextJS-related CDK constructs."
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsBaseProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsBase.ts",
+        "line": 7
+      },
+      "name": "NextjsBaseProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Can be the root of your project (`.`) or a subdirectory (`packages/web`).",
+            "stability": "stable",
+            "summary": "Relative path to the directory where the NextJS project is located."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 12
+          },
+          "name": "nextjsPath",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "default": "'npx --yes open-next@2 build'",
+            "stability": "stable",
+            "summary": "Optional value used to install NextJS node dependencies."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 42
+          },
+          "name": "buildCommand",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "By default, it is `nextjsPath`.\nCan be overridden, particularly useful for monorepos where `build` is expected to run\nat the root of the project.",
+            "stability": "stable",
+            "summary": "The directory to execute `npm run build` from."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 19
+          },
+          "name": "buildPath",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Custom environment variables to pass to the NextJS build and runtime."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 30
+          },
+          "name": "environment",
+          "optional": true,
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "map"
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Defaults to current working directory.",
+            "stability": "stable",
+            "summary": "Root of your project, if different from `nextjsPath`."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 25
+          },
+          "name": "projectRoot",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Less build output."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 47
+          },
+          "name": "quiet",
+          "optional": true,
+          "type": {
+            "primitive": "boolean"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "If omitted, the layer will be created.",
+            "stability": "stable",
+            "summary": "Optional arn for the sharp lambda layer."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 53
+          },
+          "name": "sharpLayerArn",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "This can be set to true to skip the full cache invalidation, which\ncould be important for some users.",
+            "stability": "stable",
+            "summary": "By default all CloudFront cache will be invalidated on deployment."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 60
+          },
+          "name": "skipFullInvalidation",
+          "optional": true,
+          "type": {
+            "primitive": "boolean"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Defaults to os.tmpdir().",
+            "stability": "stable",
+            "summary": "Directory to store temporary build files in."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBase.ts",
+            "line": 36
+          },
+          "name": "tempBuildDir",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsBase:NextjsBaseProps"
+    },
+    "cdk-nextjs-standalone.NextjsBucketDeployment": {
+      "assembly": "cdk-nextjs-standalone",
+      "base": "constructs.Construct",
+      "docs": {
+        "stability": "stable",
+        "summary": "Similar to CDK's `BucketDeployment` construct, but with a focus on replacing template placeholders (i.e. environment variables) and configuring PUT options like cache control."
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsBucketDeployment",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/NextjsBucketDeployment.ts",
+          "line": 102
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-nextjs-standalone.NextjsBucketDeploymentProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/NextjsBucketDeployment.ts",
+        "line": 77
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Creates `substitutionConfig` an object by extracting unresolved tokens."
+          },
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 87
+          },
+          "name": "getSubstitutionConfig",
+          "parameters": [
+            {
+              "name": "env",
+              "type": {
+                "collection": {
+                  "elementtype": {
+                    "primitive": "string"
+                  },
+                  "kind": "map"
+                }
+              }
+            }
+          ],
+          "returns": {
+            "type": {
+              "collection": {
+                "elementtype": {
+                  "primitive": "string"
+                },
+                "kind": "map"
+              }
+            }
+          },
+          "static": true
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Formats a string as a template value so custom resource knows to replace."
+          },
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 81
+          },
+          "name": "getSubstitutionValue",
+          "parameters": [
+            {
+              "name": "v",
+              "type": {
+                "primitive": "string"
+              }
+            }
+          ],
+          "returns": {
+            "type": {
+              "primitive": "string"
+            }
+          },
+          "static": true
+        }
+      ],
+      "name": "NextjsBucketDeployment",
+      "properties": [
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Lambda Function Provider for Custom Resource."
+          },
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 99
+          },
+          "name": "function",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.Function"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsBucketDeployment:NextjsBucketDeployment"
+    },
+    "cdk-nextjs-standalone.NextjsBucketDeploymentProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsBucketDeploymentProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsBucketDeployment.ts",
+        "line": 9
+      },
+      "name": "NextjsBucketDeploymentProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Source `Asset`."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 13
+          },
+          "name": "asset",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3_assets.Asset"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Destination S3 Bucket."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 38
+          },
+          "name": "destinationBucket",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3.IBucket"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "default": "false",
+            "stability": "stable",
+            "summary": "Enable verbose output of Custom Resource Lambda."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 18
+          },
+          "name": "debug",
+          "optional": true,
+          "type": {
+            "primitive": "boolean"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Destination S3 Bucket Key Prefix."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 42
+          },
+          "name": "destinationKeyPrefix",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "default": "true",
+            "stability": "stable",
+            "summary": "If `true`, then delete files in `destinationBucket`/`destinationKeyPrefix` before uploading new objects."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 24
+          },
+          "name": "prune",
+          "optional": true,
+          "type": {
+            "primitive": "boolean"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Keys of\nrecord must be a glob pattern (uses micromatch). Values of record are options\nfor PUT command for AWS SDK JS V3. See [here](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-s3/Interface/PutObjectRequest/)\nfor options. If a file matches multiple globs, configuration will be\nmerged. Later entries override earlier entries.\n\n`Bucket`, `Key`, and `Body` PUT options cannot be set.",
+            "stability": "stable",
+            "summary": "Mapping of files to PUT options for `PutObjectCommand`."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 34
+          },
+          "name": "putConfig",
+          "optional": true,
+          "type": {
+            "collection": {
+              "elementtype": {
+                "collection": {
+                  "elementtype": {
+                    "primitive": "string"
+                  },
+                  "kind": "map"
+                }
+              },
+              "kind": "map"
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Placeholder targets are\ndefined by keys of record. Values to replace placeholders with are defined\nby values of record.",
+            "stability": "stable",
+            "summary": "Replace placeholders in all files in `asset`."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 48
+          },
+          "name": "substitutionConfig",
+          "optional": true,
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "map"
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "default": "false",
+            "remarks": "Useful for Lambda functions.",
+            "stability": "stable",
+            "summary": "If `true` then files will be zipped before writing to destination bucket."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBucketDeployment.ts",
+            "line": 55
+          },
+          "name": "zip",
+          "optional": true,
+          "type": {
+            "primitive": "boolean"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsBucketDeployment:NextjsBucketDeploymentProps"
+    },
+    "cdk-nextjs-standalone.NextjsBuild": {
+      "assembly": "cdk-nextjs-standalone",
+      "base": "constructs.Construct",
+      "docs": {
+        "stability": "stable",
+        "summary": "Build Next.js app."
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsBuild",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/NextjsBuild.ts",
+          "line": 73
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-nextjs-standalone.NextjsBuildProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/NextjsBuild.ts",
+        "line": 28
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsBuild.ts",
+            "line": 140
+          },
+          "name": "readPublicFileList",
+          "returns": {
+            "type": {
+              "collection": {
+                "elementtype": {
+                  "primitive": "string"
+                },
+                "kind": "array"
+              }
+            }
+          }
+        }
+      ],
+      "name": "NextjsBuild",
+      "properties": [
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Cache directory for generated data."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBuild.ts",
+            "line": 65
+          },
+          "name": "nextCacheDir",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "remarks": "Should be arm64.",
+            "stability": "stable",
+            "summary": "Contains function for processessing image requests."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBuild.ts",
+            "line": 41
+          },
+          "name": "nextImageFnDir",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Contains function for processing items from revalidation queue."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBuild.ts",
+            "line": 49
+          },
+          "name": "nextRevalidateFnDir",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Contains server code and dependencies."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBuild.ts",
+            "line": 32
+          },
+          "name": "nextServerFnDir",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Static files containing client-side code."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBuild.ts",
+            "line": 57
+          },
+          "name": "nextStaticDir",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsBuild.ts",
+            "line": 71
+          },
+          "name": "props",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsBuildProps"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsBuild:NextjsBuild"
+    },
+    "cdk-nextjs-standalone.NextjsBuildProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsBuildProps",
+      "interfaces": [
+        "cdk-nextjs-standalone.NextjsBaseProps"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsBuild.ts",
+        "line": 18
+      },
+      "name": "NextjsBuildProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "see": " `NextjsProps.skipBuild`",
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsBuild.ts",
+            "line": 22
+          },
+          "name": "skipBuild",
+          "optional": true,
+          "type": {
+            "primitive": "boolean"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsBuild:NextjsBuildProps"
+    },
+    "cdk-nextjs-standalone.NextjsCachePolicyProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsCachePolicyProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsDistribution.ts",
+        "line": 32
+      },
+      "name": "NextjsCachePolicyProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 35
+          },
+          "name": "imageCachePolicy",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.ICachePolicy"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 34
+          },
+          "name": "serverCachePolicy",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.ICachePolicy"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 33
+          },
+          "name": "staticCachePolicy",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.ICachePolicy"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Default: 30 days.",
+            "stability": "stable",
+            "summary": "Cache-control max-age default for static assets (/_next/*)."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 41
+          },
+          "name": "staticClientMaxAgeDefault",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.Duration"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsDistribution:NextjsCachePolicyProps"
+    },
+    "cdk-nextjs-standalone.NextjsDefaultsProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "remarks": "Why `any`? see https://github.com/aws/jsii/issues/2901",
+        "stability": "stable",
+        "summary": "Defaults for created resources."
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsDefaultsProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/Nextjs.ts",
+        "line": 23
+      },
+      "name": "NextjsDefaultsProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Override static file deployment settings."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 27
+          },
+          "name": "assetDeployment",
+          "optional": true,
+          "type": {
+            "primitive": "any"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "These properties should all be optional but cannot be due to a limitation in jsii.",
+            "stability": "stable",
+            "summary": "Override CloudFront distribution settings."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 39
+          },
+          "name": "distribution",
+          "optional": true,
+          "type": {
+            "primitive": "any"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Override server lambda function settings."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 32
+          },
+          "name": "lambda",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.FunctionOptions"
+          }
+        }
+      ],
+      "symbolId": "src/Nextjs:NextjsDefaultsProps"
+    },
+    "cdk-nextjs-standalone.NextjsDistribution": {
+      "assembly": "cdk-nextjs-standalone",
+      "base": "constructs.Construct",
+      "docs": {
+        "stability": "stable",
+        "summary": "Create a CloudFront distribution to serve a Next.js application."
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsDistribution",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/NextjsDistribution.ts",
+          "line": 203
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-nextjs-standalone.NextjsDistributionProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/NextjsDistribution.ts",
+        "line": 133
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 506
+          },
+          "name": "lookupHostedZone",
+          "protected": true,
+          "returns": {
+            "optional": true,
+            "type": {
+              "fqn": "aws-cdk-lib.aws_route53.IHostedZone"
+            }
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 478
+          },
+          "name": "validateCustomDomainSettings",
+          "protected": true
+        }
+      ],
+      "name": "NextjsDistribution",
+      "properties": [
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The default CloudFront Cache Policy properties for images."
+          },
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 158
+          },
+          "name": "imageCachePolicyProps",
+          "static": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.CachePolicyProps"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The default CloudFront cache policy properties for dynamic requests to server handler."
+          },
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 137
+          },
+          "name": "serverCachePolicyProps",
+          "static": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.CachePolicyProps"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The domain name of the internally created CloudFront Distribution."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 270
+          },
+          "name": "distributionDomain",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The ID of the internally created CloudFront Distribution."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 263
+          },
+          "name": "distributionId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The CloudFront URL of the website."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 233
+          },
+          "name": "url",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 237
+          },
+          "name": "customDomainName",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "If the custom domain is enabled, this is the URL of the website with the custom domain."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 255
+          },
+          "name": "customDomainUrl",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The internally created CloudFront `Distribution` instance."
+          },
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 178
+          },
+          "name": "distribution",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.Distribution"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 170
+          },
+          "name": "props",
+          "protected": true,
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsDistributionProps"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The AWS Certificate Manager certificate for the custom domain."
+          },
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 186
+          },
+          "name": "certificate",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_certificatemanager.ICertificate"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "The Route 53 hosted zone for the custom domain."
+          },
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 182
+          },
+          "name": "hostedZone",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_route53.IHostedZone"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsDistribution:NextjsDistribution"
+    },
+    "cdk-nextjs-standalone.NextjsDistributionCdkProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsDistributionCdkProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsDistribution.ts",
+        "line": 24
+      },
+      "name": "NextjsDistributionCdkProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Pass in a value to override the default settings this construct uses to create the CloudFront `Distribution` internally."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 29
+          },
+          "name": "distribution",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.DistributionProps"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsDistribution:NextjsDistributionCdkProps"
+    },
+    "cdk-nextjs-standalone.NextjsDistributionProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsDistributionProps",
+      "interfaces": [
+        "cdk-nextjs-standalone.NextjsBaseProps"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsDistribution.ts",
+        "line": 49
+      },
+      "name": "NextjsDistributionProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Must be provided if you want to serve dynamic requests.",
+            "stability": "stable",
+            "summary": "Lambda function to optimize images."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 66
+          },
+          "name": "imageOptFunction",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.IFunction"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Built NextJS app."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 76
+          },
+          "name": "nextBuild",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsBuild"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Must be provided if you want to serve dynamic requests.",
+            "stability": "stable",
+            "summary": "Lambda function to route all non-static requests to."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 60
+          },
+          "name": "serverFunction",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.IFunction"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Must be provided if you want to serve static files.",
+            "stability": "stable",
+            "summary": "Bucket containing static assets."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 54
+          },
+          "name": "staticAssetsBucket",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3.IBucket"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Override the default CloudFront cache policies created internally."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 81
+          },
+          "name": "cachePolicies",
+          "optional": true,
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsCachePolicyProps"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Overrides for created CDK resources."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 71
+          },
+          "name": "cdk",
+          "optional": true,
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsDistributionCdkProps"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "example": "new NextjsDistribution(this, \"Dist\", {\n  customDomain: \"domain.com\",\n});\n\nnew NextjsDistribution(this, \"Dist\", {\n  customDomain: {\n    domainName: \"domain.com\",\n    domainAlias: \"www.domain.com\",\n    hostedZone: \"domain.com\"\n  },\n});",
+            "remarks": "Note that you can also migrate externally hosted domains to Route 53 by\n[following this guide](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/MigratingDNS.html).",
+            "stability": "stable",
+            "summary": "The customDomain for this website. Supports domains that are hosted either on [Route 53](https://aws.amazon.com/route53/) or externally."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 108
+          },
+          "name": "customDomain",
+          "optional": true,
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "string"
+                },
+                {
+                  "fqn": "cdk-nextjs-standalone.NextjsDomainProps"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "default": "\"NONE\"",
+            "stability": "stable",
+            "summary": "Override lambda function url auth type."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 127
+          },
+          "name": "functionUrlAuthType",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.FunctionUrlAuthType"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Override the default CloudFront origin request policies created internally."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 86
+          },
+          "name": "originRequestPolicies",
+          "optional": true,
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsOriginRequestPolicyProps"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Optional value to prefix the edge function stack It defaults to \"Nextjs\"."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 121
+          },
+          "name": "stackPrefix",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Used to name the edge functions stack.\nRequired if using SST.",
+            "stability": "stable",
+            "summary": "Include the name of your deployment stage if present."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 115
+          },
+          "name": "stageName",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsDistribution:NextjsDistributionProps"
+    },
+    "cdk-nextjs-standalone.NextjsDomainProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsDomainProps",
+      "interfaces": [
+        "cdk-nextjs-standalone.BaseSiteDomainProps"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsDistribution.ts",
+        "line": 20
+      },
+      "name": "NextjsDomainProps",
+      "symbolId": "src/NextjsDistribution:NextjsDomainProps"
+    },
+    "cdk-nextjs-standalone.NextjsImage": {
+      "assembly": "cdk-nextjs-standalone",
+      "base": "aws-cdk-lib.aws_lambda_nodejs.NodejsFunction",
+      "docs": {
+        "stability": "stable",
+        "summary": "This lambda handles image optimization."
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsImage",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/NextjsImage.ts",
+          "line": 30
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-nextjs-standalone.NextjsImageProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/NextjsImage.ts",
+        "line": 29
+      },
+      "name": "NextjsImage",
+      "symbolId": "src/NextjsImage:NextjsImage"
+    },
+    "cdk-nextjs-standalone.NextjsImageProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsImageProps",
+      "interfaces": [
+        "cdk-nextjs-standalone.NextjsBaseProps"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsImage.ts",
+        "line": 11
+      },
+      "name": "NextjsImageProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "The S3 bucket holding application images."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsImage.ts",
+            "line": 15
+          },
+          "name": "bucket",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3.IBucket"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "The `NextjsBuild` instance representing the built Nextjs application."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsImage.ts",
+            "line": 23
+          },
+          "name": "nextBuild",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsBuild"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Override function properties."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsImage.ts",
+            "line": 19
+          },
+          "name": "lambdaOptions",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda_nodejs.NodejsFunctionProps"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsImage:NextjsImageProps"
+    },
+    "cdk-nextjs-standalone.NextjsInvalidation": {
+      "assembly": "cdk-nextjs-standalone",
+      "base": "constructs.Construct",
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsInvalidation",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/NextjsInvalidation.ts",
+          "line": 26
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-nextjs-standalone.NextjsInvalidationProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/NextjsInvalidation.ts",
+        "line": 25
+      },
+      "name": "NextjsInvalidation",
+      "symbolId": "src/NextjsInvalidation:NextjsInvalidation"
+    },
+    "cdk-nextjs-standalone.NextjsInvalidationProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsInvalidationProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsInvalidation.ts",
+        "line": 12
+      },
+      "name": "NextjsInvalidationProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Useful for assets that must be deployed/updated before invalidating.",
+            "stability": "stable",
+            "summary": "Constructs that should complete before invalidating CloudFront Distribution."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsInvalidation.ts",
+            "line": 22
+          },
+          "name": "dependencies",
+          "type": {
+            "collection": {
+              "elementtype": {
+                "fqn": "constructs.Construct"
+              },
+              "kind": "array"
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "CloudFront Distribution to invalidate."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsInvalidation.ts",
+            "line": 16
+          },
+          "name": "distribution",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.IDistribution"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsInvalidation:NextjsInvalidationProps"
+    },
+    "cdk-nextjs-standalone.NextjsOriginRequestPolicyProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsOriginRequestPolicyProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsDistribution.ts",
+        "line": 44
+      },
+      "name": "NextjsOriginRequestPolicyProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 46
+          },
+          "name": "imageOptimizationOriginRequestPolicy",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.IOriginRequestPolicy"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsDistribution.ts",
+            "line": 45
+          },
+          "name": "serverOriginRequestPolicy",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_cloudfront.IOriginRequestPolicy"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsDistribution:NextjsOriginRequestPolicyProps"
+    },
+    "cdk-nextjs-standalone.NextjsProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsProps",
+      "interfaces": [
+        "cdk-nextjs-standalone.NextjsBaseProps"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/Nextjs.ts",
+        "line": 42
+      },
+      "name": "NextjsProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Allows you to override defaults for the resources created by this construct."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 51
+          },
+          "name": "defaults",
+          "optional": true,
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsDefaultsProps"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Optional S3 Bucket to use, defaults to assets bucket."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 46
+          },
+          "name": "imageOptimizationBucket",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3.IBucket"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "default": "false",
+            "stability": "stable",
+            "summary": "Skips running Next.js build. Useful if you want to deploy `Nextjs` but haven't made any changes to Next.js app code."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/Nextjs.ts",
+            "line": 57
+          },
+          "name": "skipBuild",
+          "optional": true,
+          "type": {
+            "primitive": "boolean"
+          }
+        }
+      ],
+      "symbolId": "src/Nextjs:NextjsProps"
+    },
+    "cdk-nextjs-standalone.NextjsRevalidation": {
+      "assembly": "cdk-nextjs-standalone",
+      "base": "constructs.Construct",
+      "docs": {
+        "see": "{@link https://github.com/serverless-stack/open-next/blob/main/README.md?plain=1#L65}",
+        "stability": "stable",
+        "summary": "Builds the system for revalidating Next.js resources. This includes a Lambda function handler and queue system."
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsRevalidation",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/NextjsRevalidation.ts",
+          "line": 44
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-nextjs-standalone.NextjsRevalidationProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/NextjsRevalidation.ts",
+        "line": 39
+      },
+      "name": "NextjsRevalidation",
+      "properties": [
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsRevalidation.ts",
+            "line": 41
+          },
+          "name": "function",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda_nodejs.NodejsFunction"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsRevalidation.ts",
+            "line": 40
+          },
+          "name": "queue",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_sqs.Queue"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsRevalidation:NextjsRevalidation"
+    },
+    "cdk-nextjs-standalone.NextjsRevalidationProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsRevalidationProps",
+      "interfaces": [
+        "cdk-nextjs-standalone.NextjsBaseProps"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsRevalidation.ts",
+        "line": 16
+      },
+      "name": "NextjsRevalidationProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "The `NextjsBuild` instance representing the built Nextjs application."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsRevalidation.ts",
+            "line": 25
+          },
+          "name": "nextBuild",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsBuild"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "The main NextJS server handler lambda function."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsRevalidation.ts",
+            "line": 30
+          },
+          "name": "serverFunction",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsServer"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Override function properties."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsRevalidation.ts",
+            "line": 20
+          },
+          "name": "lambdaOptions",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.FunctionOptions"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsRevalidation:NextjsRevalidationProps"
+    },
+    "cdk-nextjs-standalone.NextjsServer": {
+      "assembly": "cdk-nextjs-standalone",
+      "base": "constructs.Construct",
+      "docs": {
+        "stability": "stable",
+        "summary": "Build a lambda function from a NextJS application to handle server-side rendering, API routes, and image optimization."
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsServer",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/NextjsServer.ts",
+          "line": 54
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-nextjs-standalone.NextjsServerProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/NextjsServer.ts",
+        "line": 39
+      },
+      "name": "NextjsServer",
+      "properties": [
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsServer.ts",
+            "line": 41
+          },
+          "name": "lambdaFunction",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.Function"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsServer.ts",
+            "line": 40
+          },
+          "name": "configBucket",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3.Bucket"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsServer:NextjsServer"
+    },
+    "cdk-nextjs-standalone.NextjsServerProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsServerProps",
+      "interfaces": [
+        "cdk-nextjs-standalone.NextjsBaseProps"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsServer.ts",
+        "line": 19
+      },
+      "name": "NextjsServerProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Built nextJS application."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsServer.ts",
+            "line": 23
+          },
+          "name": "nextBuild",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsBuild"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Function needs bucket to read from cache.",
+            "stability": "stable",
+            "summary": "Static asset bucket."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsServer.ts",
+            "line": 33
+          },
+          "name": "staticAssetBucket",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3.IBucket"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Override function properties."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsServer.ts",
+            "line": 28
+          },
+          "name": "lambda",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_lambda.FunctionOptions"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsServer:NextjsServerProps"
+    },
+    "cdk-nextjs-standalone.NextjsStaticAssets": {
+      "assembly": "cdk-nextjs-standalone",
+      "base": "constructs.Construct",
+      "docs": {
+        "remarks": "Will inject resolved environment variables that are unresolved at synthesis\nin CloudFormation Custom Resource.",
+        "stability": "stable",
+        "summary": "Uploads Nextjs built static and public files to S3."
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsStaticAssets",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/NextjsStaticAssets.ts",
+          "line": 51
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-nextjs-standalone.NextjsStaticAssetsProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/NextjsStaticAssets.ts",
+        "line": 33
+      },
+      "name": "NextjsStaticAssets",
+      "properties": [
+        {
+          "docs": {
+            "stability": "stable",
+            "summary": "Bucket containing assets."
+          },
+          "locationInModule": {
+            "filename": "src/NextjsStaticAssets.ts",
+            "line": 37
+          },
+          "name": "bucket",
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3.IBucket"
+          }
+        },
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/NextjsStaticAssets.ts",
+            "line": 39
+          },
+          "name": "props",
+          "protected": true,
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsStaticAssetsProps"
+          }
+        }
+      ],
+      "symbolId": "src/NextjsStaticAssets:NextjsStaticAssets"
+    },
+    "cdk-nextjs-standalone.NextjsStaticAssetsProps": {
+      "assembly": "cdk-nextjs-standalone",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "cdk-nextjs-standalone.NextjsStaticAssetsProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/NextjsStaticAssets.ts",
+        "line": 12
+      },
+      "name": "NextjsStaticAssetsProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "The `NextjsBuild` instance representing the built Nextjs application."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsStaticAssets.ts",
+            "line": 20
+          },
+          "name": "nextBuild",
+          "type": {
+            "fqn": "cdk-nextjs-standalone.NextjsBuild"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Define your own bucket to store static assets."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsStaticAssets.ts",
+            "line": 16
+          },
+          "name": "bucket",
+          "optional": true,
+          "type": {
+            "fqn": "aws-cdk-lib.aws_s3.IBucket"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable",
+            "summary": "Custom environment variables to pass to the NextJS build and runtime."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/NextjsStaticAssets.ts",
+            "line": 24
+          },
+          "name": "environment",
+          "optional": true,
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "map"
+            }
+          }
+        }
+      ],
+      "symbolId": "src/NextjsStaticAssets:NextjsStaticAssetsProps"
+    }
+  },
+  "version": "4.0.0-beta.3",
+  "fingerprint": "e8DyxCcFbS0KQDqItgSNcwQMm5OVw43m9HFDjUHb5Ac="
+}

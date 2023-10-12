@@ -1,0 +1,10 @@
+export declare const DEFAULT_STATIC_MAX_AGE: number;
+export declare const DEFAULT_STATIC_STALE_WHILE_REVALIDATE: number;
+export declare const CACHE_BUCKET_KEY_PREFIX = "_cache";
+export declare const NEXTJS_STATIC_DIR = "assets";
+export declare const NEXTJS_BUILD_DIR = ".open-next";
+export declare const NEXTJS_CACHE_DIR = "cache";
+export declare const NEXTJS_BUILD_REVALIDATE_FN_DIR = "revalidation-function";
+export declare const NEXTJS_BUILD_IMAGE_FN_DIR = "image-optimization-function";
+export declare const NEXTJS_BUILD_SERVER_FN_DIR = "server-function";
+export declare const NEXTJS_BUILD_INDEX_FILE = "index.mjs";

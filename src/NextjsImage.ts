@@ -36,8 +36,13 @@ export class NextjsImage extends NodejsFunction {
       bundling: {
         ...nodejsFnProps.bundling,
         logLevel: LogLevel.SILENT, // silence error on use of `eval` in node_module
+        externalModules: ['sharp'],
+        nodeModules: ['sharp'],
         commandHooks: {
-          afterBundling: () => [],
+          afterBundling: (_inputDir, outputDir) => [
+            `cd ${outputDir}`,
+            'rm -rf node_modules/sharp && npm install --no-save --arch=x86 --platform=linux sharp',
+          ],
           beforeBundling: (_inputDir, outputDir) => [
             // copy non-bundled assets into zip. use node -e so cross-os compatible
             `node -e "fs.cpSync('${fixPath(props.nextBuild.nextImageFnDir)}', '${fixPath(

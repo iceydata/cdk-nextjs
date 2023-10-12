@@ -245,6 +245,14 @@
         }
       ]
     },
+    "prepare": {
+      "name": "prepare",
+      "steps": [
+        {
+          "exec": "yarn build"
+        }
+      ]
+    },
     "release": {
       "name": "release",
       "description": "Prepare a release from \"main\" branch",

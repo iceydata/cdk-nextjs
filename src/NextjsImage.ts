@@ -1,4 +1,5 @@
 import { join } from 'path';
+import { Architecture } from 'aws-cdk-lib/aws-lambda';
 import { LogLevel, NodejsFunction, NodejsFunctionProps } from 'aws-cdk-lib/aws-lambda-nodejs';
 import { IBucket } from 'aws-cdk-lib/aws-s3';
 import { Construct } from 'constructs';
@@ -28,7 +29,8 @@ export interface NextjsImageProps extends NextjsBaseProps {
  */
 export class NextjsImage extends NodejsFunction {
   constructor(scope: Construct, id: string, props: NextjsImageProps) {
-    const { lambdaOptions, bucket } = props;
+    const { lambdaOptions = {}, bucket } = props;
+    const { architecture, ...lambdaOptionsWithoutArchitecture } = lambdaOptions;
 
     const nodejsFnProps = getCommonNodejsFunctionProps(scope);
     super(scope, id, {
@@ -55,10 +57,11 @@ export class NextjsImage extends NodejsFunction {
       entry: join(props.nextBuild.nextImageFnDir, NEXTJS_BUILD_INDEX_FILE),
       handler: 'index.handler',
       description: 'Next.js Image Optimization Function',
-      ...lambdaOptions,
+      ...lambdaOptionsWithoutArchitecture,
+      architecture: Architecture.ARM_64,
       environment: {
         BUCKET_NAME: bucket.bucketName,
-        ...lambdaOptions?.environment,
+        ...lambdaOptionsWithoutArchitecture?.environment,
       },
     });
 
